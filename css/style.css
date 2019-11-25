@@ -1029,7 +1029,7 @@ h6 {
 #clients img {
   max-width: 80%;
   opacity: 0.5;
-  transition: 0.3s;
+  transition: 0.1s;
   padding: 15px 0;
 }
 

@@ -101,6 +101,7 @@ jQuery(document).ready(function($) {
       success: function(msg) {
         // alert(msg);
         if (msg == 'OK') {
+          $("#pack-container").addClass("d-none");
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
