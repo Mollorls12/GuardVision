@@ -722,8 +722,8 @@ h6 {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #1bb1dc;
-  border: 3px solid #1bb1dc;
+  background: #E6BF35;
+  border: 3px solid #E6BF35;
 }
 
 /* Features Section
@@ -850,7 +850,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #1bb1dc;
+  background: #1E2247;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -864,7 +864,7 @@ h6 {
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
-  background: #42c3e8;
+  background: #E6BF35;
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
@@ -1419,7 +1419,7 @@ h6 {
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-  background: #0a98c0;
+  background: #E6BF35;
   cursor: pointer;
 }
 
