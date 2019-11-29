@@ -622,11 +622,11 @@ h6 {
 }
 
 #services .title a {
-  color: #111;
+  color: #1E2347;
 }
 
 #services .box:hover .title a {
-  color: #1bb1dc;
+  color: #1E2347;
 }
 
 #services .description {
