@@ -966,30 +966,10 @@
               
               <h4>Nous contacter</h4>
               
-              <form action="" method="post" role="form" class="contactForm">
-                <div class="form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom et prénom" data-rule="minlen:4" data-msg="S'il vous plaît entrer au moins 4 caractères" />
-                  <div class="validation"></div>
+              <div class="cognito">
+                <script src="https://services.cognitoforms.com/s/7Q67_pJs2UifE-7UeFmn6A"></script>
+                <script>Cognito.load("forms", { id: "1" });</script>
                 </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Votre Email" data-rule="email" data-msg="S'il vous plaît entrer un email valide" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" data-rule="minlen:4" data-msg="Veuillez entrer au moins 8 caractères du sujet" />
-                  <div class="validation"></div>
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="S'il vous plaît écrivez quelque chose" placeholder="Message"></textarea>
-                  <div class="validation"></div>
-                </div>
-
-                <div id="sendmessage">Votre message a été envoyé. Je vous remercie!</div>
-                <div id="errormessage"></div>
-
-                <div class="text-center"><button type="submit" title="Send Message">Envoyer le message</button></div>
-              </form>
-            </div>
 
           </div>
 
