@@ -1,21 +1,30 @@
 /**
-* Template Name: Baker - v2.0.0
-* Template URL: https://bootstrapmade.com/baker-free-onepage-bootstrap-theme/
+* Template Name: Arsha - v2.0.0
+* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
 !(function($) {
   "use strict";
 
+  // Preloader
+  $(window).on('load', function() {
+    if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+  });
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-      e.preventDefault();
       var target = $(this.hash);
       if (target.length) {
+        e.preventDefault();
 
         var scrollto = target.offset().top;
-        var scrolled = 12;
+        var scrolled = 20;
 
         if ($('#header').length) {
           scrollto -= $('#header').outerHeight()
@@ -88,7 +97,7 @@
   var main_nav = $('.nav-menu, #mobile-nav');
 
   $(window).on('scroll', function() {
-    var cur_pos = $(this).scrollTop() + 200;
+    var cur_pos = $(this).scrollTop() + 90;
 
     nav_sections.each(function() {
       var top = $(this).offset().top,
@@ -135,28 +144,13 @@
     return false;
   });
 
-  // jQuery counterUp
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 2
-      },
-      900: {
-        items: 3
-      }
-    }
+  // Skills section
+  $('.skills-content').waypoint(function() {
+    $('.progress .progress-bar').each(function() {
+      $(this).css("width", $(this).attr("aria-valuenow") + '%');
+    });
+  }, {
+    offset: '80%'
   });
 
   // Porfolio isotope and filter
@@ -172,6 +166,7 @@
       portfolioIsotope.isotope({
         filter: $(this).data('filter')
       });
+      aos_init();
     });
 
     // Initiate venobox (lightbox feature used in portofilo)
@@ -188,6 +183,17 @@
     dots: true,
     loop: true,
     items: 1
+  });
+
+  // Initi AOS
+  function aos_init() {
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  }
+  $(window).on('load', function() {
+    aos_init();
   });
 
 })(jQuery);
