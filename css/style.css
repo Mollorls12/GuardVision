@@ -142,7 +142,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #1bb1dc;
+  color: #E6BF35;
 }
 
 #topbar .social-links a:first-child {
@@ -391,7 +391,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active > a,
 .mobile-nav li:hover > a {
-  color: #8dc2fa;
+  color: #E6BF35;
   text-decoration: none;
 }
 
@@ -437,7 +437,7 @@ h6 {
 
 .mobile-nav-toggle i {
   margin: 18px 18px 0 0;
-  color: #065e77;
+  color: #1F2347;
 }
 
 .mobile-nav-overly {
@@ -1235,7 +1235,7 @@ h6 {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1bb1dc;
+  background: #E6BF35;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1248,7 +1248,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0a98c0;
+  background: #E6BF35;
   color: #fff;
 }
 
