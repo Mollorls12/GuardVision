@@ -1,9 +1,9 @@
 <?php
 // Informations d'identification
-define('DB_SERVER', 'sql111.epizy.com');
-define('DB_USERNAME', 'epiz_24433817');
-define('DB_PASSWORD', 'LU0aRutvKUvX');
-define('DB_NAME', 'epiz_24433817_login');
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'dashboard');
+define('DB_PASSWORD', '753951');
+define('DB_NAME', 'registration');
  
 // Connexion � la base de donn�es MySQL 
 $conn = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);

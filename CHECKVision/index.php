@@ -365,7 +365,7 @@
 											</a>
 										</li>
 										<li class="nav-item">
-											<a href="javascript:;" class="nav-link">
+											<a href="logout.php" class="nav-link">
 												<i data-feather="log-out"></i>
 												<span>Se déconnecter</span>
 											</a>
