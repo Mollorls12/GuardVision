@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #a5b8c5;
 }
 
 a:hover {
@@ -1653,7 +1653,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #161c2d;
 }
 
 #footer .footer-newsletter {
@@ -1711,7 +1711,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: #161C2D;
 }
 
 #footer .footer-top .footer-contact {
@@ -1733,13 +1733,13 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: #a5b8c5;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #FFFFFF;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1807,7 +1807,7 @@ section {
 #footer .footer-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #fff;
+  color: #a5b8c5;
 }
 
 #footer .copyright {
@@ -1821,6 +1821,11 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+/* LOGOS BAR */
+.logos-bar {
+  padding: 40px 0;
 }
 
 @media (max-width: 768px) {
