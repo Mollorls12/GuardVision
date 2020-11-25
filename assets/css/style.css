@@ -249,20 +249,23 @@ h1, h2, h3, h4, h5, h6 {
 /* Get Startet Button */
 .get-started-btn {
   margin-left: 25px;
-  color: #fff;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
   border-radius: 50px;
   padding: 6px 25px 7px 25px;
   white-space: nowrap;
   transition: 0.3s;
   font-size: 14px;
   display: inline-block;
-  border: 2px solid #47b2e4;
+  border: 2px solid #ffffff;
   font-weight: 600;
 }
 
 .get-started-btn:hover {
-  background: #31a9e1;
+  background: #59b1da;
   color: #fff;
+  border: 2px solid #59b1da;
+
 }
 
 @media (max-width: 768px) {
@@ -1821,6 +1824,27 @@ section {
 
 #footer .credits a {
   transition: 0.3s;
+}
+
+/* social bar */
+.social-bar {
+  background:#37517E;
+}
+.social-bar h6 {
+  color: #fff;
+  font-weight: 300;
+}
+.social-bar ul li:not(:last-child) {
+  margin-right: 20px;
+}
+.social-bar ul li a {
+  font-size: 18px;
+  color: #fff;
+  -webkit-transition: color .25s linear;
+  transition: color .25s linear;
+}
+.social-bar ul li a:hover {
+  color:#47B2E4;
 }
 
 /* LOGOS BAR */

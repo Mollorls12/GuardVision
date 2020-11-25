@@ -50,7 +50,17 @@
   <link href="assets/css/popup.css" rel="stylesheet">
   <script type="text/javascript" src="/assets/js/popup.js"></script>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
-
+  
+  <!-- OneSignal -->
+  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+  <script>
+    window.OneSignal = window.OneSignal || [];
+    OneSignal.push(function() {
+      OneSignal.init({
+        appId: "7185eaf9-c80b-4176-a439-8dae57332599",
+      });
+    });
+  </script>
 
 </head>
 
@@ -194,8 +204,7 @@
     
 
 
-      <a href="http://portalguard.rf.gd/" class="get-started-btn scrollto"><i class="fas fa-sign-in-alt"></i> <strong>Espace client</strong></a>
-
+      <a href="http://portalguard.rf.gd/" class="get-started-btn scrollto"><i class="fa fa-user-o mr-2 d-lg-inline-flex d-none"></i> <strong>Espace client</strong></a>
     </div>
   </header><!-- End Header -->
 
@@ -1051,6 +1060,33 @@
         <div class="col-md col-sm-3 col-4">
           <img src="assets/img/partner/ubiquiti.png" class="img-fluid lazy" alt="image">
         </div>   
+      </div>
+    </div>
+  </div>
+
+  <!-- social bar -->
+  <div class="social-bar">
+    <div class="container">
+      <!-- row-->
+      <div class="row py-4 d-flex flex-md-row flex-column align-items-center">
+        <!-- col -->
+        <div class="col-md-8 text-md-left text-center mb-md-0 mb-4">
+          <h6 class="mb-0">Restez en contact avec nous sur les réseaux sociaux !</h6>
+        </div>
+        <!-- col -->
+        <div class="col-md-4 text-md-right text-center">
+          <ul class="d-flex align-items-center justify-content-md-end justify-content-center list-unstyled mb-0">
+            <li>
+              <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
