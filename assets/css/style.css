@@ -6,6 +6,80 @@
 */
 
 /*--------------------------------------------------------------
+# Notification
+--------------------------------------------------------------*/
+#overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  filter:alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+  opacity: 0.7;
+  z-index: 100;
+  display: none;
+  }
+  .cnt223 a{
+  text-decoration: none;
+  }
+  .popup{
+  width: 100%;
+  margin: 0 auto;
+  display: none;
+  position: fixed;
+  z-index: 101;
+  }
+  .cnt223{
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0.4px 3.6px rgba(0, 0, 0, 0.004),
+      0 1px 8.5px rgba(0, 0, 0, 0.01), 0 1.9px 15.7px rgba(0, 0, 0, 0.019),
+      0 3.4px 28.2px rgba(0, 0, 0, 0.03), 0 6.3px 54.4px rgba(0, 0, 0, 0.047),
+      0 15px 137px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 336px;
+  }
+  .cnt223 p{
+    clear: both;
+    color: #555555;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .cnt223 .icon-box{
+  color: #f95858;
+	display: inline-block;
+	z-index: 9;
+	text-align: center;
+	position: relative;
+  transform: scale(2.0);
+}
+
+  .cnt223 p a{
+  color: #37517E;
+  font-weight: bold;
+  }
+  .cnt223 .x{
+  float: right;
+  height: 35px;
+  left: 22px;
+  position: relative;
+  top: -25px;
+  width: 34px;
+  }
+  .cnt223 .x:hover{
+  cursor: pointer;
+  }
+  
+
+/*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
