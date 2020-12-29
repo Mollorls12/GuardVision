@@ -31,6 +31,7 @@
   display: none;
   position: fixed;
   z-index: 101;
+  text-align: center;
   }
   .cnt223{
     align-items: center;
@@ -1934,7 +1935,7 @@ section {
   color:#47B2E4;
 }
 
-/* LOGOS BAR */
+/* LOGOS BARRE */
 .logos-bar {
   align-items: center;
   width: 80%;
